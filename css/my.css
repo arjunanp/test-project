@@ -1,0 +1,275 @@
+.header--style {
+    border: none;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.link--text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.icon--margin-right {
+    margin-right: 0.5rem;
+}
+.footer--logo {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.footer--menus {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 6rem;
+}
+.footer {
+    background-color: #34495e;
+    color: #e4e6e5;
+}
+.link-color {
+    color: white;
+}
+.footer--copyright {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+@media (max-width:768px) {
+    .margin--btm {
+        margin-bottom: 1rem;
+    }
+
+ 
+}
+
+/*about page styles*/
+
+.aboutus-bg {
+    background-image: url(../img/travel-hd.jpg);
+    height: 67rem;
+}
+.about-container {
+    padding-top: 10rem;
+}
+.about-text {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 4rem;
+    color: #2e3252;
+    margin-top: 10rem;
+}
+.about-text-2 {
+    margin-top: 3rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 3rem;
+    color: #003696;
+}
+.logo-style {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.contact-container {
+    background-image: url(../img/background_1.jpg);
+    padding-top: 10rem;
+  
+}
+.contact-form {
+    background: mintcream;
+    border: 1px outset lightsteelblue;
+    border-radius: 5px;
+}
+.contact-form-container {
+    margin-top: 2rem;
+}
+
+#slides_control > div{
+  height: 200px;
+}
+img{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+ margin-left:-200px;
+}
+
+.tours-container
+{
+    background-image: url(../img/Beach-background.jpg);
+    padding-top: 10rem;
+}
+
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
+
+
+
+.border--rt
+{
+        border-right: 1px solid lightgrey;
+}
+
+.padding-lft
+{
+    padding-left: 3rem;
+        height: 17rem;
+}
+
+.tours-header-text
+{
+        text-align: center;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+
+.booking--margn
+{
+        margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.select-box-style
+{
+        width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 15px;
+}
+
+.search-btn
+{
+        margin-top: 1rem;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 15rem;
+}
+
+.rbt
+{
+        font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.contact-hgt
+{
+       height: 18rem;     
+
+}
+
+@media (min-width:992px)
+{
+ 
+    
+.hght
+{
+    height: 67rem;
+
+}
+    .booking-container
+{
+    border: 1px outset lightgrey;
+    background: white;
+    padding-top: 1rem;
+    /* padding-left: 2rem; */
+        margin-top: 35rem;
+    border-radius: 10px;
+}
+    
+.padding-lft
+{
+    padding-left: 3rem;
+        height: 17rem;
+    padding-right: 3rem;
+}
+    .mrg-btm-date
+    {
+            margin-bottom: 1rem;
+}
+}
+
+@media (min-width:768px) and (max-width:992px)
+{
+ 
+ .booking-container
+{
+    border: 1px outset lightgrey;
+    background: white;
+    padding-top: 1rem;
+    /* padding-left: 2rem; */
+        margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+    
+.padding-lft
+{
+    padding-left: 3rem;
+    padding-right: 3rem;
+        height: 21rem;
+        border-bottom: 1px solid lightgrey;
+    padding-top:1rem;
+}
+    .mrgin-top
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+@media (max-width:768px)
+{
+ 
+.mrgin-top
+    {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .booking-container
+{
+    border: 1px outset lightgrey;
+    background: white;
+    padding-top: 1rem;
+    /* padding-left: 2rem; */
+        margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+    
+.padding-lft
+{
+    padding-left: 3rem;
+    padding-right: 3rem;
+        height: 21rem;
+        border-bottom: 1px solid lightgrey;
+    padding-top:1rem;
+}
+  
+}
+

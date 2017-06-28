@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Website Template</title>
+    <link href="css/global/bootstrap.css" rel="stylesheet" />
+    <link href="css/global/full-slider.css" rel="stylesheet"/>
+          
+    <link href="css/global/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/global/font-awesome-animation.css" rel="stylesheet" />
+    <link href="css/global/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/my.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+</head>
+
+<body>
+    <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top header--style">
+
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo-style">YOUR LOGO</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a ui-sref="home" class="link--text"><span class="fa fa-home icon--margin-right"></span><span>HOME</span></a></li>
+                    <li><a ui-sref="tours" class="link--text"><span class="fa fa-plane icon--margin-right"></span><span>TOURS</span></a></li>
+                    <li><a ui-sref="about" class="link--text"><span class="fa fa-user icon--margin-right"></span><span>ABOUT US</span></a></li>
+                    <li><a ui-sref="contact" class="link--text"><span class="fa fa-envelope icon--margin-right"></span><span>CONTACT</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--END NAV SECTION -->
+
+
+   
+        <div ui-view></div>
+   
+
+
+
+    <!--FOOTER SECTION -->
+   
+        	<div class="container-fluid footer">
+			<div class="row footer--logo">
+				<div class="col-12 col-md-12 col-xs-12 col-sm-12"><span>Your Logo</span></div>
+			</div>
+                
+            <div class="visible-xs visible-sm hidden-lg hidden-md">
+            <hr> 
+            </div>
+            <!-- /row -->
+			<div class="row footer--menus">
+              
+			<div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-xs-12 col-sm-12 margin--btm">Terms  Conditions</div>
+                
+			<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm">Privacy Policy</div>
+                
+			<div class="col-lg-2 col-md-2  margin--btmcol-xs-12 col-sm-12 margin--btm">News</div>
+                
+			<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm">Tourist Squad</div>
+            
+            <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm">Contact Us</div>
+			
+			</div>
+                <!-- /row -->
+            <div class="visible-xs visible-sm hidden-lg hidden-md">
+            <hr> 
+            </div>
+                <div class="row footer--menus">
+              
+			<div class="col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-xs-12 col-sm-12 margin--btm"><a target="_blank" href="#" class="link-color"><i class="fa fa-phone fa-2x"></i></a></div>
+                
+			<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm"><a target="_blank" href="#" class="link-color"><i class="fa fa-envelope fa-2x"></i></a></div>
+                
+			<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm "><a target="_blank" href="#" class="link-color"><i class="fa fa-home fa-2x"></i></a></div>
+                
+			<div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm"><a target="_blank" href="#" class="link-color"><i class="fa fa-facebook fa-2x"></i></a></div>
+            
+            <div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 margin--btm"><a target="_blank" href="#" class="link-color"><i class="fa fa-twitter fa-2x"></i></a></div>
+			
+			</div>
+	
+            <div class="visible-xs visible-sm hidden-lg hidden-md">
+            <hr> 
+            </div>       
+              
+		  <div class="row footer--copyright">
+				<div class="col-12 col-md-12 col-xs-12 col-sm-12"><span>@copyrights belongs to company</span></div>
+          </div>
+                
+    </div><!-- /row -->
+			<!-- /container -->
+	
+    
+    <!-- END FOOTER SECTION -->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="scripts/global/jquery.js"></script>
+    <script src="scripts/global/bootstrap.min.js"></script>
+    <script src="scripts/global/jquery.prettyPhoto.js"></script>
+  
+    <script src="scripts/global/angular.js"></script>
+    <script src="scripts/global/angular-ui-router.js"></script>
+    <script src="scripts/global/angular-animate.js"></script>
+    <script src="scripts/global/angular-sanitize.js"></script>
+    <script src="scripts/global/ui-bootstrap-tpls-2.2.0.js"></script>
+    
+
+    <script src="scripts/custom.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/controllers/home.controller.js"></script>
+    <script src="scripts/controllers/tours.controller.js"></script>            
+
+</body>
+
+</html>

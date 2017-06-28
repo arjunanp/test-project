@@ -1,0 +1,114 @@
+<div class="container-fluid tours-container rbt hght">
+
+
+<div class="container booking-container">
+    
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 border--rt padding-lft">
+<div class="row tours-header-text"><span>What?</span></div>    
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="radio">
+      <label><input type="radio" name="optradio">Acccomodation</label>
+    </div>                                  
+</div> 
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+    <div class="radio">
+      <label><input type="radio" name="optradio">Rent a Car</label>
+    </div>  
+</div> 
+</div>  
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="radio">
+      <label><input type="radio" name="optradio">Tour</label>
+    </div>                                 
+</div> 
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="radio">
+      <label><input type="radio" name="optradio">Cruise</label>
+    </div>
+</div> 
+</div> 
+
+</div>    
+
+    
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border--rt padding-lft">
+<div class="row tours-header-text">
+    <span>When?</span>
+    </div>
+ 
+
+<div class="row booking--margn">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="row mrg-btm-date">
+<span> Check-in date</span>                                   
+</div>
+<div class="row">
+
+    <p class="input-group">
+          <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open1()"><i class="fa fa-calendar"></i></button>
+          </span>
+        </p> 
+    
+</div>
+ 
+</div> 
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="row mrg-btm-date">
+<span> Check-out date</span>                                   
+</div>
+    <div class="row">
+<p class="input-group">
+          <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt2" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open2()"><i class="fa fa-calendar"></i></button>
+          </span>
+        </p>
+    </div>
+</div> 
+</div>
+    
+<div class="row visible-lg visible-md hidden-sm hidden-xs">
+<div class="col-lg-offset-4 col-lg-2 col-md-offset-4 col-md-2 ">
+    <button type="button" class="btn btn-default search-btn">Search</button>
+</div>
+</div>    
+</div>    
+ 
+<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 padding-lft">
+    <div class="row tours-header-text"><span>Where?</span></div>
+   
+     <div class="row booking--margn"><span>Search For Location</span></div>
+   <div class="row">  
+    <select class="selectpicker select-box-style">
+  <option>Select Location</option>
+  <option>India</option>
+  <option>United States</option>
+        <option>Germany</option>
+        <option>Australia</option>
+</select>
+</div>
+
+</div>
+<div class="visible-xs visible-sm hidden-lg hidden-md">
+            <hr> 
+            </div>
+<div class="row visible-sm visible-xs hidden-md hidden-lg">
+<div class="col-xs-offset-4 col-xs-4 col-sm-offset-4 col-sm-4">
+    <button type="button" class="btn btn-default search-btn">Search</button>
+</div>
+</div>
+    
+</div>    
+    
+    
+</div>
+</div>
+
